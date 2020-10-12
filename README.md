@@ -1,2 +1,2 @@
-# cache
+# Distributed Cache
 Go distributed cache
