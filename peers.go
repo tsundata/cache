@@ -1,6 +1,6 @@
 package cache
 
-import "github.com/sysatom/cache/pb"
+import "github.com/tsundata/cache/pb"
 
 type PeerPicker interface {
 	PickPeer(key string) (peer PeerGetter, ok bool)

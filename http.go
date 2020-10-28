@@ -2,15 +2,16 @@ package cache
 
 import (
 	"fmt"
-	"github.com/golang/protobuf/proto"
-	"github.com/sysatom/cache/consistenthash"
-	"github.com/sysatom/cache/pb"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"net/url"
 	"strings"
 	"sync"
+
+	"github.com/golang/protobuf/proto"
+	"github.com/tsundata/cache/consistenthash"
+	"github.com/tsundata/cache/pb"
 )
 
 const (

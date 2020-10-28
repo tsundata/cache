@@ -3,9 +3,10 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/sysatom/cache"
 	"log"
 	"net/http"
+
+	"github.com/tsundata/cache"
 )
 
 var db = map[string]string{

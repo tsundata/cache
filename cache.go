@@ -1,8 +1,9 @@
 package cache
 
 import (
-	"github.com/sysatom/cache/lru"
 	"sync"
+
+	"github.com/tsundata/cache/lru"
 )
 
 type cache struct {
